@@ -7,23 +7,26 @@ tup5=('k',)
 tup8=('j','x',)
 tup10=('q','z',)
 count=0
-for value in databs:
-    for x in value:
-       if x in tup1:
-            count= count +1
-       elif x in tup2:
-            count= count +2
-       elif x in tup3:
-            count= count +3
-       elif x in tup4:
-            count= count +4
-       elif x in tup5:
-            count= count +5
-       elif x in tup8:
-            count= count +8
-       elif x in tup10:
-            count= count +10
-       else:
-            count= count+0
- print(count)
-   
+x=str(input('write a word we count for u :'))
+if x in databs :
+    for i in x:
+        if i in t1:
+            count=count+1
+        elif i in t2:
+            count=count+2
+        elif i in t3:
+            count=count+3
+        elif i in t4:
+            count=count+4
+        elif i in t5:
+            count=count+5
+        elif i in t8:
+            count=count+8
+        elif i in t10:
+            count=count+10
+        else:
+            count=count+0
+    print('Your word:',x)
+    print('Number in my rule:',count)
+else:
+    print('Sry,the word not in dictionary!')
