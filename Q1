@@ -1,4 +1,4 @@
-databs=open('DB-words.txt','r')
+databs=list(open('DB-words.txt','r'))
 tup1=('a','e','i','o','u','l','n','s','t',)
 tup2=('d','g',)
 tup3=('b','c','m','p',)
