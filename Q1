@@ -25,4 +25,5 @@ for value in databs:
             count= count +10
        else:
             count= count+0
+ print(count)
    
